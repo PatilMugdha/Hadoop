@@ -30,5 +30,4 @@ int MR_Run(int argc, char *argv[], Mapper map, int num_mappers, Reducer reduce,
 		int num_reducers, Partitioner partition);
 
 char get_next(char *key, int partition_number);
-
 #endif /* MAPREDUCE_H_ */
